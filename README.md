@@ -1,3 +1,10 @@
+# v0.2.5 - READ THIS FIRST
+- NOT JUST SAREES ANY MORE: every product now has a Type (Saree, Suit, Lehenga, Kurti, Gown, Sherwani, Dress Material, Dupatta, Blouse, Fabric, Kurta, Indo-Western, Kids Wear, Accessory, Other — or type any name you want) and a Size (S/M/L/XL/Free Size, etc.). Suits and anything else sell exactly like sarees: one barcoded piece at a time.
+- NEW CATEGORIES: Suits, Lehengas, Kurtis & Tunics, Gowns, Sherwanis, Dress Materials, Fabrics, Dupattas, Blouses, Menswear, Kids Wear, Accessories, Other Garments — added alongside the old saree categories. Your old sarees automatically stay type "Saree".
+- MORE INDIAN SHOWROOM DETAILS in the product form: Occasion (Bridal/Wedding/Festive/Party/Daily), Pattern, Work Type (Zari/Embroidery/Stone/Print), Collection, Design No., Secondary Colour, Length, Set/Blouse Details, and HSN code. Quick Add Stock and POS sell-by-name now show type and size too.
+- NOTE ON FABRIC BY METRE: fabric sold by the metre is not in this version — a fabric item is still sold as one barcoded piece, like a suit. Tell me if you need metre-based selling and I will build that separately, as it changes billing and stock math.
+- AUTO-UPDATE: if you are on v0.2.2 or later, v0.2.5 installs on the next launch. If you are still on v0.2.1, install v0.2.5 once manually (new folder + copy old data\saree.db in).
+
 # v0.2.4 - READ THIS FIRST
 - STOCK COUNT FIX: if an old saree shows double stock (you entered 5, it shows 10), that was a bug in v0.2.1/v0.2.2 product creation — new products are now correct, and in Quick Add Stock select the saree and click 'Recount this saree from barcodes' (or 'Recount ALL sarees') to fix the old counts from their actual barcodes.
 - SIMPLER STOCK: Products page now starts with "Quick Add Stock". Type a saree name, pick it, enter pieces, Add Stock — barcodes are made automatically. No supplier, no bill, no payment, no 12-field form. For a brand-new saree, just name + selling price + pieces. Every row in the product table also has an "Add Stock" button.

@@ -1,7 +1,7 @@
 {
-  "version": "0.2.4",
-  "zip_url": "https://github.com/sbhan3967-png/saree-showroom-erp/raw/main/Saree-ERP-v0.2.4.zip",
-  "zip_name": "Saree-ERP-v0.2.4.zip",
-  "sha256": "c625195729c4c4b600b6f65c31780db26fb014ec8f4a9b8cb82a4e76ee24c360",
-  "changelog": "v0.2.4 Quick Add Stock + stock-count fix: simple panel on Products, Add Stock makes barcodes, no supplier/bill/payment; /api/add-stock stock-only; FIXED 5-entered-shows-10 product-creation double-count; /api/stock-recount + Recount buttons repair old wrong counts from actual available barcodes."
+  "version": "0.2.5",
+  "zip_url": "https://github.com/sbhan3967-png/saree-showroom-erp/raw/main/Saree-ERP-v0.2.5.zip",
+  "zip_name": "Saree-ERP-v0.2.5.zip",
+  "sha256": "0185a76d249fb00fd5cc89c0a03720cb478c73f65d1cd44544af428690423489",
+  "changelog": "v0.2.5 General showroom: Product Type + Size for every product, 13 new categories, detailed form exposes Occasion/Pattern/Work/Collection/Design No./Secondary Colour/Length/Set Details/HSN, Quick Add and POS show type/size, old sarees migrate to Saree."
 }
