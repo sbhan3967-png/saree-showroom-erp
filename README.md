@@ -1,3 +1,9 @@
+# v0.2.3 - READ THIS FIRST
+- NEW IN POS: search a customer by name or mobile right on the bill, and add a new customer inline in POS (name, mobile, type, WhatsApp, email, state, address) — it saves and selects them without leaving the bill or clearing your billed sarees, discount or payments.
+- NEW: sell a saree by name — type 2+ letters in "sell by saree name", pick the saree, Add Piece adds its oldest available barcoded piece. Barcode scan still works exactly as before.
+- FIXED: a product created with opening stock (e.g. 3 pieces) wrongly showed double stock (6). New products now show the correct stock.
+- AUTO-UPDATE: if you are already on v0.2.2, v0.2.3 downloads in the background and installs on the next launch — no manual download needed. If you are still on v0.2.1 (empty update channel), install v0.2.3 once manually (unzip to a NEW folder, copy your old data\saree.db in), and auto-update works from then on.
+
 # v0.2.2 - READ THIS FIRST
 - NEW: Suppliers section now has an "Add New Supplier" panel (name is the only required field) plus a Supplier Directory table. Add a supplier there first, then they appear in Purchase, Payment and Ledger lists.
 - AUTO-UPDATE: from v0.2.2 onward the update channel is already set in Settings to the official GitHub channel, mode install_on_restart. Future updates download in the background and install on the next launch — you do NOT need to re-download manually. The updater never touches data\ or backups\, and never overwrites the running Python/launcher.

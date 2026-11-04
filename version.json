@@ -1,7 +1,7 @@
 {
-  "version": "0.2.2",
-  "zip_url": "https://github.com/sbhan3967-png/saree-showroom-erp/raw/main/Saree-ERP-v0.2.2.zip",
-  "zip_name": "Saree-ERP-v0.2.2.zip",
-  "sha256": "6e6f61d8ecb159b7ac55d60c205f09cc69858ce4e559968a43245aced0bdb7a5",
-  "changelog": "v0.2.2: NEW Add New Supplier panel in Suppliers section (supplier name required, plus contact, mobile, WhatsApp, email, GSTIN, state, address, opening balance, credit limit, payment terms, notes) with a Supplier Directory table; auto-update channel is now pre-filled to the official GitHub channel on fresh installs and on existing installs where no channel was set (a user-chosen channel is never overwritten); auto-updater no longer tries to overwrite the running python-win interpreter or launcher exe, which could break an update on Windows."
+  "version": "0.2.3",
+  "zip_url": "https://github.com/sbhan3967-png/saree-showroom-erp/raw/main/Saree-ERP-v0.2.3.zip",
+  "zip_name": "Saree-ERP-v0.2.3.zip",
+  "sha256": "13b2ae06dd3a1bf270feb85f6b775b9c51f1f343723a9d04f9237d29d09e1cbc",
+  "changelog": "v0.2.3 POS: customer search by name/mobile in POS; inline Add New Customer in POS without clearing the bill; sell by saree name (oldest available piece, no barcode needed); fixed opening-stock double-count; /api/units product_id filter."
 }
