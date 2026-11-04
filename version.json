@@ -1,6 +1,7 @@
 {
-  "version": "0.2.1",
-  "zip_url": "https://github.com/sbhan3967-png/saree-showroom-erp/raw/main/Saree-ERP-v0.2.1-Fixed.zip",
-  "sha256": "e327abe1a7c9b43d9a466bbf50a15c50e0dc00228ed06039262c57fd17f1b8e0",
-  "changelog": "Fixed package v0.2.1: demo data removed (fresh empty DB on first run), product-create bug fixed (was: 36 values for 37 columns), Saree-ERP.bat now uses bundled python-win instead of system Python, Launch-Desktop-App.bat fixed (no dist\\win-unpacked / npm start), README corrected: .NET launcher + Chrome/Edge app window, NOT Electron, data lives in app folder data\\."
+  "version": "0.2.2",
+  "zip_url": "https://github.com/sbhan3967-png/saree-showroom-erp/raw/main/Saree-ERP-v0.2.2.zip",
+  "zip_name": "Saree-ERP-v0.2.2.zip",
+  "sha256": "6e6f61d8ecb159b7ac55d60c205f09cc69858ce4e559968a43245aced0bdb7a5",
+  "changelog": "v0.2.2: NEW Add New Supplier panel in Suppliers section (supplier name required, plus contact, mobile, WhatsApp, email, GSTIN, state, address, opening balance, credit limit, payment terms, notes) with a Supplier Directory table; auto-update channel is now pre-filled to the official GitHub channel on fresh installs and on existing installs where no channel was set (a user-chosen channel is never overwritten); auto-updater no longer tries to overwrite the running python-win interpreter or launcher exe, which could break an update on Windows."
 }

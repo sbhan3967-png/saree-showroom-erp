@@ -1,3 +1,8 @@
+# v0.2.2 - READ THIS FIRST
+- NEW: Suppliers section now has an "Add New Supplier" panel (name is the only required field) plus a Supplier Directory table. Add a supplier there first, then they appear in Purchase, Payment and Ledger lists.
+- AUTO-UPDATE: from v0.2.2 onward the update channel is already set in Settings to the official GitHub channel, mode install_on_restart. Future updates download in the background and install on the next launch — you do NOT need to re-download manually. The updater never touches data\ or backups\, and never overwrites the running Python/launcher.
+- NOTE: v0.2.1 could not auto-update to v0.2.2 on its own, because v0.2.1 shipped with an empty update channel. Install v0.2.2 once from GitHub (unzip to a NEW folder, copy your old data\saree.db in, as in UPDATE-INSTRUCTIONS.txt), and auto-update works from then on.
+
 # FIXED PACKAGE v0.2.1 - READ THIS FIRST
 - Demo data REMOVED: the old v0.2.0 portable zip shipped with 100 demo products/customers/sales. This fixed package starts EMPTY on first run.
 - NOT Electron: the .exe is a .NET launcher that starts the bundled Python engine and opens Chrome/Edge in app-window mode. There is no Electron runtime in this zip.
