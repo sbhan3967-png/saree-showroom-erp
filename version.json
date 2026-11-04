@@ -1,7 +1,7 @@
 {
-  "version": "0.2.3",
-  "zip_url": "https://github.com/sbhan3967-png/saree-showroom-erp/raw/main/Saree-ERP-v0.2.3.zip",
-  "zip_name": "Saree-ERP-v0.2.3.zip",
-  "sha256": "13b2ae06dd3a1bf270feb85f6b775b9c51f1f343723a9d04f9237d29d09e1cbc",
-  "changelog": "v0.2.3 POS: customer search by name/mobile in POS; inline Add New Customer in POS without clearing the bill; sell by saree name (oldest available piece, no barcode needed); fixed opening-stock double-count; /api/units product_id filter."
+  "version": "0.2.4",
+  "zip_url": "https://github.com/sbhan3967-png/saree-showroom-erp/raw/main/Saree-ERP-v0.2.4.zip",
+  "zip_name": "Saree-ERP-v0.2.4.zip",
+  "sha256": "c625195729c4c4b600b6f65c31780db26fb014ec8f4a9b8cb82a4e76ee24c360",
+  "changelog": "v0.2.4 Quick Add Stock + stock-count fix: simple panel on Products, Add Stock makes barcodes, no supplier/bill/payment; /api/add-stock stock-only; FIXED 5-entered-shows-10 product-creation double-count; /api/stock-recount + Recount buttons repair old wrong counts from actual available barcodes."
 }

@@ -1,3 +1,9 @@
+# v0.2.4 - READ THIS FIRST
+- STOCK COUNT FIX: if an old saree shows double stock (you entered 5, it shows 10), that was a bug in v0.2.1/v0.2.2 product creation — new products are now correct, and in Quick Add Stock select the saree and click 'Recount this saree from barcodes' (or 'Recount ALL sarees') to fix the old counts from their actual barcodes.
+- SIMPLER STOCK: Products page now starts with "Quick Add Stock". Type a saree name, pick it, enter pieces, Add Stock — barcodes are made automatically. No supplier, no bill, no payment, no 12-field form. For a brand-new saree, just name + selling price + pieces. Every row in the product table also has an "Add Stock" button.
+- Stock-only note: Quick Add Stock does NOT create a supplier bill or payment. Use New Purchase only when you need a supplier bill recorded.
+- AUTO-UPDATE: if you are on v0.2.2 or v0.2.3, v0.2.4 downloads and installs on the next launch. If you are still on v0.2.1, install v0.2.4 once manually (new folder + copy old data\saree.db in).
+
 # v0.2.3 - READ THIS FIRST
 - NEW IN POS: search a customer by name or mobile right on the bill, and add a new customer inline in POS (name, mobile, type, WhatsApp, email, state, address) — it saves and selects them without leaving the bill or clearing your billed sarees, discount or payments.
 - NEW: sell a saree by name — type 2+ letters in "sell by saree name", pick the saree, Add Piece adds its oldest available barcoded piece. Barcode scan still works exactly as before.
