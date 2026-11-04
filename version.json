@@ -1,0 +1,6 @@
+{
+  "version": "0.2.1",
+  "zip_url": "https://github.com/sbhan3967-png/saree-showroom-erp/raw/main/Saree-ERP-v0.2.1-Fixed.zip",
+  "sha256": "e327abe1a7c9b43d9a466bbf50a15c50e0dc00228ed06039262c57fd17f1b8e0",
+  "changelog": "Fixed package v0.2.1: demo data removed (fresh empty DB on first run), product-create bug fixed (was: 36 values for 37 columns), Saree-ERP.bat now uses bundled python-win instead of system Python, Launch-Desktop-App.bat fixed (no dist\\win-unpacked / npm start), README corrected: .NET launcher + Chrome/Edge app window, NOT Electron, data lives in app folder data\\."
+}
